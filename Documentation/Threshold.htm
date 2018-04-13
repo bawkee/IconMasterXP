@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Threshold Filter</title>
+	<link rel="Stylesheet" type="text/css" href="MainStyle.css" />
+	<script src="Utilities.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Threshold Filter</h1>
+	<p>
+		This filter is used to convert color images to monochromatic images by removing
+		pixels based on their color and brightness. To use this filter:
+	</p>
+	<ul>
+		<li>
+			Through main menu, click <b>Filters &rarr; Threshold &rarr; Interactive / 50%</b><br />
+			You can use either interactive mode or just set the threshold to 50% value. Interactive
+			mode is recommended as it will render different levels of effect on selected image
+			in real time in the preview pane.
+			<br />- Or -<br />
+			Use the right-click menu on the bottom workspace area.
+		</li>
+		<li>
+			If you used interactive mode, press any key to stop it when you are satisfied with results. When
+			interactive mode reaches maximum value it will start going backwards so take your time to choose an
+			optimal version.
+		</li>	
+	</ul>
+	<p>
+		After this, same strength of the filter will be applied to all selected images.
+		You can see some examples bellow.
+	</p>
+	
+	<table>
+		<tr>
+			<td><img src="threshold01.jpg" alt="Filter Sample" /></td>
+			<td>Original image.</td>
+		</tr>
+		<tr>
+			<td><img src="threshold02.jpg" alt="Filter Sample" /></td>
+			<td>More than 50% threshold applied.</td>
+		</tr>
+		<tr>
+			<td><img src="threshold03.jpg" alt="Filter Sample" /></td>
+			<td>Less tha 25% threshold applied.</td>
+		</tr>
+	</table>
+	
+	<h2 class="note">Notes</h2>
+	<ol>
+		<li>You cannot use threshold on monochrome images.</li>
+	</ol>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Basic Information">
+		<param name="ImageNumber" value="2">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Overview">
+			<param name="Local" value="Overview.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Resources">
+			<param name="Local" value="Resources.htm">
+			<param name="ImageNumber" value="13">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="System Requirements">
+			<param name="Local" value="System Requirements.htm">
+			<param name="ImageNumber" value="41">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="EULA">
+			<param name="Local" value="EULA.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Usage">
+		<param name="ImageNumber" value="2">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Color Modes (Bit Depths)">
+			<param name="Local" value="Color Modes.htm">
+			<param name="ImageNumber" value="17">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Image Formats (Encoders)">
+			<param name="Local" value="Image Formats.htm">
+			<param name="ImageNumber" value="17">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Importing Images">
+			<param name="Local" value="Importing.htm">
+			<param name="ImageNumber" value="17">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Exporting Images">
+			<param name="Local" value="Exporting.htm">
+			<param name="ImageNumber" value="17">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Status Bar">
+			<param name="Local" value="Status Bar.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Editing">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Selecting Images">
+				<param name="Local" value="Selecting Items.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Removing Images">
+				<param name="Local" value="Removing Items.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Resizing">
+				<param name="Local" value="Resizing.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Rotating">
+				<param name="Local" value="Rotating.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Manipulating Colors">
+				<param name="Local" value="Manipulating Colors.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Duplicating Images">
+				<param name="Local" value="Duplicating Items.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Using Palette Editor">
+				<param name="Local" value="Palette Editor.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Undoing and Reverting">
+				<param name="Local" value="Undoing and Reverting.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Zooming (Magnifying)">
+				<param name="Local" value="Zooming.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Image Filters">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Threshold">
+				<param name="Local" value="Threshold.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Gamma, Light and Contrast">
+				<param name="Local" value="Gamma, Light and Contrast.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Soften and Sharpen">
+				<param name="Local" value="Soften and Sharpen.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Colorize and Negative">
+				<param name="Local" value="Negative and Colorize.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Edge">
+				<param name="Local" value="Edge.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

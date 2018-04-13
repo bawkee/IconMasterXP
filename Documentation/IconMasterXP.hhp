@@ -1,0 +1,63 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=IconMasterXP.chm
+Contents file=Table of Contents.hhc
+Default Window=wnd_main
+Default topic=Overview.htm
+Display compile progress=No
+Language=0x809 English (United Kingdom)
+Title=IconMasterXP Documentation
+
+[WINDOWS]
+wnd_main="IconMasterXP Documentation","Table of Contents.hhc",,"Overview.htm","Overview.htm",,,,,0x2121,280,0x306e,[0,0,965,860],,,,,,,0
+wnd_context="IconMasterXP Contextual Help","Table of Contents.hhc",,"Overview.htm","Overview.htm",,,,,0x120,,0x386e,[930,89,1615,889],,,,1,,,0
+
+
+[FILES]
+Overview.htm
+Color Modes.htm
+Duplicating Items.htm
+Edge.htm
+EULA.htm
+Exporting.htm
+Gamma, Light and Contrast.htm
+Image Formats.htm
+Importing.htm
+Manipulating Colors.htm
+Negative and Colorize.htm
+Palette Editor.htm
+Removing Items.htm
+Resizing.htm
+Resources.htm
+Rotating.htm
+Selecting Items.htm
+Soften and Sharpen.htm
+Status Bar.htm
+System Requirements.htm
+Threshold.htm
+Undoing and Reverting.htm
+Zooming.htm
+minus.gif
+note.gif
+plus.gif
+MainStyle.css
+
+[ALIAS]
+IDH_COLOR_MODES=Color Modes.htm
+IDH_COLORIZE=Negative and Colorize.htm
+IDH_EXPORTING=Exporting.htm
+IDH_IMPORTING=Importing.htm
+IDH_LINKS=Resources.htm
+IDH_MANIPULATING_COLORS=Manipulating Colors.htm
+IDH_OVERVIEW=Overview.htm
+IDH_PALETTE_EDITOR=Palette Editor.htm
+IDH_RESAMPLE=Resizing.htm
+IDH_ROTATE=Rotating.htm
+IDH_THRESHOLD=Threshold.htm
+IDH_ZOOMING=Zooming.htm
+
+[MAP]
+#include context.h
+
+[INFOTYPES]
+

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Supported Color Modes or Bit-Depths</title>
+	<link rel="Stylesheet" type="text/css" href="MainStyle.css" />
+	<script src="Utilities.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Supported Color Modes or Bit-Depths</h1>
+	<p>To change a bit-depth of all currently selected images:</p>
+	<ul>
+		<li>
+			Through main menu, click <b>Edit &rarr; Bit Depth &rarr; [Desired Color Mode]</b><br />
+			Read more bellow on possible color modes.
+			<br />- Or -<br />
+			Use the right-click menu on the bottom workspace area.
+		</li>
+	</ul>
+	<p>
+		IconMasterXP supports most common image color modes and allows you to convert images
+		both ways. Color mode or bit-depth is a most important attribute of an image and
+		using it properly in your designs greatly improves quality of your work.<br />
+		Windows&reg; icons in particular usually require you to support all common bit depts so the icon
+		is displayed properly in all modes. For example having a monochromatic version of your icon stored
+		in the multi-paged icon file is a basic requirement for many software applications.
+	</p>
+	<p>Further bellow is an explanation for each supported bit-depth.</p>
+	
+	<h1>32-Bit, True Color Plus 8-Bit Alpha Channel</h1>
+	<p>
+		This is actually a 24-bit image with 8 bit alpha channel included. When you export
+		an image with this format, it will be detected as 24-bit image, but most programs
+		in Windows XP support alpha channel and will display your image correctly. On the
+		other hand, if certain program that does not support alpha channels attempts to
+		render 32-bit image, it would display it with rendering errors, such as black pixels
+		around that image. In order to avoid this undesirable effect, you should always
+		consider exporting icons that have at least one more bit-depth format besides 32-bit
+		(multi-page icon files, see <a href="Exporting.htm">Exporting</a>)
+	</p>
+
+	<h1>24-Bit, True Color</h1>
+	<p>
+		This format should only be used when necessary; it is a bitmap with no palette and
+		no alpha-channel. Also, avoid using this format when exporting icons, 8-bit palette
+		is recommended and common amongst icon designers. Also known as, "true color", this
+		format is used usually for images with more than 256 colors.
+	</p>
+	<p>
+		Since resulting file size is directly proportional to the number of colors used,
+		expect enormous files if you use this format for exporting bitmapped images or icons.
+		Note that, when you work with this format, number of colors is actually infinite,
+		so you do not need to worry about palettes.
+	</p>
+	<p>
+		Some special effects and features in IconMaster require images to be converted to
+		24-bit mode first and then converted to any desirable format when done.
+	</p>
+	
+	<h1>8-Bit, Optimized Palette With Error Diffusion</h1>
+	<p>
+		This is well known format and very common in practice. There is usually a dilemma
+		with this format, should you use compressed 24-bit image or standard 8-bit? Answer
+		is both, the good thing about 8-bit image is palette, it is consisted of 256 different
+		colors, and each has their index (place in the palette). If you on the other hand,
+		need more than 256 colors, or your image is colossal &mdash; give chance to JPEG compression.
+		When exporting Windows&reg; icons, this format is usually a must.
+	</p>
+	<p>
+		IconMaster has built-in color dithering system (palette optimizer with error diffusion) so
+		it will reduce number of colors without harming image quality.<br />
+		Bellow is a comparison between original image on the left and an 8-bit (with 256
+		colors) version of the same image on the right.
+	</p>
+
+	<table>
+		<tr>
+			<td><img src="colormodes_original01.jpg" alt="Color Modes Sample" /></td>
+			<td><img src="colormodes_8bit01.jpg" alt="Color Modes Sample" /></td>
+		</tr>
+	</table>
+
+	<h2 class="note">Notes</h2>
+	<ol>
+		<li>You can manipulate color palette directly. See <a href="Palette Editor.htm">Palette Editor</a></li>
+		<li>The larger the image is, loss of quality will become more noticable.</li>
+	</ol>
+
+	<h1>4-Bit, Standard VGA With Error Diffusion</h1>
+	<p>
+		This 16-color format is used only for VGA graphic mode. It has palette consisted
+		of 16 fixed colors which cannot be changed. This format is also used by memory-friendly
+		software, although it is now obsolete it is still used in certain programs with
+		extremely large number of graphical elements, in order to reduce memory-usage and
+		performance strain.
+		<br />
+		Bellow is a comparison between original image on the left and an 4-bit (with 16
+		colors) version of the same image on the right.
+	</p>
+
+	<table>
+		<tr>
+			<td><img src="colormodes_original01.jpg" alt="Color Modes Sample" /></td>
+			<td><img src="colormodes_4bit01.jpg" alt="Color Modes Sample" /></td>
+		</tr>
+	</table>
+
+	<h2 class="note">Notes</h2>
+	<ol>
+		<li>Creative designers can draw very functional, clear and good-looking icons with only
+		16 colors</li>
+		<li>This was a default color mode of old 16-bit operating systems (eg. Windows&reg; 3.11).</li>
+	</ol>
+
+	<h1>1-Bit, Monochrome (2 Colors) With Dithering</h1>
+	<p>
+		This is monochromatic mode, which means it has no actual colors - only black and
+		white. It is used by special software for better compatibility. Lately however,
+		minimalistic design styles have returned monochrome icons back into fashion.
+	</p>
+	<p>
+		Bellow is a comparison between original image on the left and an 1-bit (with 1
+		color) version of the same image on the right.
+	</p>
+
+	<table>
+		<tr>
+			<td><img src="colormodes_original01.jpg" alt="Color Modes Sample" /></td>
+			<td><img src="colormodes_1bit01.jpg" alt="Color Modes Sample" /></td>
+		</tr>
+	</table>
+
+	<p>You can use <a href="Threshold.htm">Threshold</a> filter to achieve conversion without dithering, as shown in bellow image.</p>
+	<img src="colormodes_threshold01.jpg" alt="Color Modes Sample" />
+
+
+</body>
+</html>

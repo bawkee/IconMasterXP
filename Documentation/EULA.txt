@@ -1,0 +1,41 @@
+﻿* END USER LICENSE AGREEMENT *
+
+IconMasterXP Copyright ©2004-2018 Bojan Sala
+
+Permission is hereby granted, free of charge, to any person obtaining a 
+copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+
+CxImage Copyright ©2001-2008 Davide Pizzolato
+
+This software is using amazing CxImage library created by Davide Pizzolato. You can
+obtain this library and its source code freely without charge at the following
+website: http://www.xdp.it/cximage.
+
+IconMasterXP is also directly dependant on following copyrighted software:
+IJG JPEG library ©1994-1998 Thomas G. Lane.
+LibPNG v1.2.7 ©1998-2007 Glenn Randers-Pehrson.
+LibTIFF v3.5.7 ©1988-1997 Sam Leffler, ©1991-1997 Silicon Graphics Inc.
+LibMNG v1.0.10 ©2000-2002 Gerard Juyn.
+LibJ2K ©2001-2002 David Janssens.
+LibJBG v1.6 ©2004 Markus Kuhn.
+JasPer v1.900.1 ©2001-2007 Image Power, UBC, Michael David Adams.
+zlib v1.2.3 ©1995-2005 Jean-loup Gailly and Mark Adler.
+
+If you by any chance detect any licensing violations, copyright infringement or 
+any other related issues please contact Bojan Sala via IconMasterXP.com 
+or 2-dots.com.

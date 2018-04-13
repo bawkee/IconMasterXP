@@ -1,0 +1,11 @@
+#define IDH_COLOR_MODES					1020
+#define IDH_COLORIZE					1030
+#define IDH_EXPORTING					1040
+#define IDH_LINKS						1060
+#define IDH_MANIPULATING_COLORS			1070
+#define IDH_RESAMPLE					1080
+#define IDH_ROTATE						1090
+#define IDH_ZOOMING						1100
+#define IDH_OVERVIEW					1110
+#define IDH_THRESHOLD					1120
+#define IDH_PALETTE_EDITOR				1130
