@@ -39,3 +39,7 @@ Release
 *.vbproj.user
 ipch
 *sdf
+*.chm
+/Source/IconMasterXP/IconMasterXP.pdb
+/Source/IconMasterXP/IconMasterXP.ilk
+/Source/IconMasterXP/IconMasterXP.exp

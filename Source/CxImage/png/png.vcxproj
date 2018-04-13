@@ -158,7 +158,7 @@
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>.\Debug\png.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Debug\</ObjectFileName>
-      <ProgramDataBaseFileName>$(SolutionDir)$(Configuration)\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <Culture>0x0809</Culture>
