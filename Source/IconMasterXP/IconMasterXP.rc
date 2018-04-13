@@ -1,0 +1,854 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+#define LANG_SERBIAN_LATIN LANG_SERBIAN
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\IconMasterXP.ico"
+IDI_HELP                ICON                    "res\\ico\\help.ico"
+IDI_IMPORT              ICON                    "res\\ico\\import.ico"
+IDI_DELETE              ICON                    "res\\ico\\delete.ico"
+IDI_EXPORT              ICON                    "res\\ico\\export.ico"
+IDI_MULTIPAGE           ICON                    "res\\ico\\multipage.ico"
+IDI_RESAMPLE            ICON                    "res\\ico\\resample.ico"
+IDI_TRANSPARENT         ICON                    "res\\ico\\transparent.ico"
+IDI_UNDO                ICON                    "res\\ico\\undo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PATTBACK            BITMAP                  "res\\gray_pattern.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_VIEW_LARGEICON
+    BUTTON      ID_VIEW_SMALLICON
+    BUTTON      ID_VIEW_LIST
+    BUTTON      ID_VIEW_DETAILS
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Import...\tCtrl+O",          ID_FILE_IMPORT
+        MENUITEM "Export...\tCtrl+S",           ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Multi-Page\tCtrl+P",         ID_FILE_MULTI, CHECKED
+        MENUITEM "&Don't Export Invalid",       ID_FILE_DON
+        MENUITEM SEPARATOR
+        MENUITEM "&Jpeg Settings...",           ID_FILE_JPEGSETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Revert to Original",         ID_EDIT_REVERT
+        MENUITEM SEPARATOR
+        MENUITEM "&Remove Item(s)\tDel",        ID_EDIT_REMOVEITEM
+        MENUITEM "&Duplicate\tCtrl+D",          ID_EDIT_DUPLICATE
+        MENUITEM "&Select All\tCtrl+A",         ID_EDIT_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Resize...\tCtrl+L",          ID_EDIT_RESIZE
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "1:1\tF2",                     ID_ZOOM_1
+            MENUITEM "x2\tF3",                      ID_ZOOM_X2
+            MENUITEM "x3\tF4",                      ID_ZOOM_X3
+            MENUITEM "x4\tF5",                      ID_ZOOM_X4
+            MENUITEM "&Enable Anti-alias",          ID_ZOOM_ENABLEANTI
+        END
+        MENUITEM "&Rotate...",                  ID_EDIT_ROTATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Mirror\tCtrl+M",             ID_EDIT_MIRROR
+        MENUITEM "&Flip\tCtrl+F",               ID_EDIT_FLIP
+        MENUITEM SEPARATOR
+        POPUP "&Bit-Depth..."
+        BEGIN
+            MENUITEM "32-Bit, True Color Plus 8-bit Alpha Channel", ID_BIT_32BIT, GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "24-Bit, True Color",          ID_BIT_24BIT
+            MENUITEM "8-Bit, Optimized Palette, Error Diffusion", ID_BIT_8BIT
+            MENUITEM "4-Bit, Standard VGA, Error Diffusion", ID_BIT_4BIT
+            MENUITEM "1-Bit, Monochrome (2 Colors), Dither", ID_BIT_2BIT
+            MENUITEM SEPARATOR
+            MENUITEM "&Help...",                    ID_BIT_TIPS
+        END
+        POPUP "&Transparent Color"
+        BEGIN
+            MENUITEM "&Pick From Image",            ID_TRANSPARENTCOLOR_PICKFROMIMAGE
+            MENUITEM "&Write RGB Values\tCtrl+W",   ID_TRANSPARENTCOLOR_WRITERGBVALUES
+            MENUITEM "&Remove\tCtrl+R",             ID_TRANSPARENTCOLOR_REMOVE
+            MENUITEM SEPARATOR
+            MENUITEM "&Help...",                    ID_TRANSPARENTCOLOR_HELP
+        END
+        MENUITEM "&Replace Colors...",          ID_EDIT_REPLACECOLORS
+        MENUITEM "&Palette...",                 ID_EDIT_PALETTE
+    END
+    POPUP "&Filters"
+    BEGIN
+        POPUP "&Threshold...\tCtrl+H"
+        BEGIN
+            MENUITEM "&50%",                        ID_FILTERS_THRESHOLD
+            MENUITEM "&Interactive",                ID_THRESHOLD_INTERACTIVE
+            MENUITEM SEPARATOR
+            MENUITEM "&Help...",                    ID_THRESHOLD_HELP
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Gamma..."
+        BEGIN
+            MENUITEM "&Increase\tShift+1",          ID_GAMMA_INCREASE
+            MENUITEM "&Decrease\tCtrl+1",           ID_GAMMA_DECREASE
+        END
+        POPUP "&Light..."
+        BEGIN
+            MENUITEM "&Increase\tShift+2",          ID_LIGHT_INCREASE
+            MENUITEM "&Decrease\tCtrl+2",           ID_LIGHT_DECREASE
+        END
+        POPUP "&Contrast..."
+        BEGIN
+            MENUITEM "&Increase\tShift+3",          ID_CONTRAST_INCREASE
+            MENUITEM "&Decrease\tCtrl+3",           ID_CONTRAST_DECREASE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Soften\tCtrl+T",             ID_FILTERS_SOFTEN
+        MENUITEM "Sharp&en",                    ID_FILTERS_SHARPEN
+        MENUITEM "&Edge\tCtrl+E",               ID_FILTERS_EDGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Negative",                   ID_FILTERS_NEGATIVE
+        MENUITEM "C&olorize...",                ID_FILTERS_COLORIZE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Console",                    ID_VIEW_CONSOLE
+        POPUP "&Background"
+        BEGIN
+            MENUITEM "&Pattern",                    ID_BACKGROUND_PATTERN
+            MENUITEM "&Color",                      ID_BACKGROUND_COLOR
+            MENUITEM SEPARATOR
+            MENUITEM "&Edit Color...",              ID_BACKGROUND_EDITCOLOR
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Contents and Index\tF1", ID_HELP
+        MENUITEM "&How to Buy Full Version",    ID_HELP_HOWTOBUYFULLVERSION
+        MENUITEM SEPARATOR
+        MENUITEM "&About IconMasterXP...",      ID_APP_ABOUT
+    END
+END
+
+IDR_LVPOPUP MENU
+BEGIN
+    POPUP "WITH_ITEMS"
+    BEGIN
+        MENUITEM "Export...",                   32807
+        MENUITEM SEPARATOR
+        MENUITEM "&Undo",                       57643
+        MENUITEM "&Revert to Original",         32865
+        MENUITEM SEPARATOR
+        MENUITEM "&Remove Item(s)",             32842
+        MENUITEM "&Duplicate",                  32867
+        MENUITEM "&Select All",                 32851
+        MENUITEM SEPARATOR
+        MENUITEM "&Resize...",                  32776
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "1:1",                         32778
+            MENUITEM "x2",                          32779
+            MENUITEM "x3",                          32780
+            MENUITEM "x4",                          32781
+            MENUITEM "&Enable Anti-alias",          32874
+        END
+        MENUITEM "&Rotate...",                  32832
+        MENUITEM SEPARATOR
+        MENUITEM "&Mirror",                     32808
+        MENUITEM "&Flip",                       32809
+        MENUITEM SEPARATOR
+        POPUP "&Bit-Depth..."
+        BEGIN
+            MENUITEM "32-Bit, True Color Plus 8-bit Alpha Channel", 32819
+            MENUITEM SEPARATOR
+            MENUITEM "24-Bit, True Color",          32843
+            MENUITEM "8-Bit, Optimized Palette, Error Diffusion", 32817
+            MENUITEM "4-Bit, Standard VGA, Error Diffusion", 32814
+            MENUITEM "1-Bit, Monochrome (2 Colors), Dither", 32818
+            MENUITEM SEPARATOR
+            MENUITEM "&Help...",                    32853
+        END
+        POPUP "&Transparent Color"
+        BEGIN
+            MENUITEM "&Pick From Image",            32804
+            MENUITEM "&Write RGB Values",           32805
+            MENUITEM "&Remove",                     32821
+            MENUITEM SEPARATOR
+            MENUITEM "&Help...",                    32878
+        END
+        MENUITEM "&Replace Colors...",          32866
+        POPUP "&Filters"
+        BEGIN
+            POPUP "&Threshold..."
+            BEGIN
+                MENUITEM "&50%",                        32787
+                MENUITEM "&Interactive",                32845
+                MENUITEM SEPARATOR
+                MENUITEM "&Help...",                    32879
+            END
+            POPUP "&Gamma..."
+            BEGIN
+                MENUITEM "&Increase",                   32824
+                MENUITEM "&Decrease",                   32825
+            END
+            MENUITEM SEPARATOR
+            POPUP "&Light..."
+            BEGIN
+                MENUITEM "&Increase",                   32826
+                MENUITEM "&Decrease",                   32827
+            END
+            POPUP "&Contrast..."
+            BEGIN
+                MENUITEM "&Increase",                   32828
+                MENUITEM "&Decrease",                   32829
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "&Soften",                     32792
+            MENUITEM "&Sharpen",                    32846
+            MENUITEM "&Edge",                       32793
+            MENUITEM SEPARATOR
+            MENUITEM "&Negative",                   32847
+            MENUITEM "&Colorize...",                32788
+        END
+    END
+    POPUP "NO_ITEMS"
+    BEGIN
+        MENUITEM "&Import...",                  32806
+        MENUITEM "Export...",                   32807
+        MENUITEM SEPARATOR
+        MENUITEM "&Multi-Page",                 32801, CHECKED
+        MENUITEM "&Jpeg Settings...",           32856
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "3",            ID_CONTRAST_DECREASE,   VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_CONTRAST_INCREASE,   VIRTKEY, SHIFT, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_EDIT_DUPLICATE,      VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FLIP,           VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_EDIT_MIRROR,         VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_DELETE,      ID_EDIT_REMOVEITEM,     VIRTKEY, NOINVERT
+    "L",            ID_EDIT_RESIZE,         VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_EDIT_SELECTALL,      VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_IMPORT,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FILTERS_EDGE,        VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FILTERS_EDGE,        VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_FILTERS_SOFTEN,      VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_FILTERS_THRESHOLD,   VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_GAMMA_DECREASE,      VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_GAMMA_INCREASE,      VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    "2",            ID_LIGHT_DECREASE,      VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_LIGHT_INCREASE,      VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "R",            ID_TRANSPARENTCOLOR_REMOVE, VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_TRANSPARENTCOLOR_WRITERGBVALUES, VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_ZOOM_1,              VIRTKEY, NOINVERT
+    VK_F3,          ID_ZOOM_X2,             VIRTKEY, NOINVERT
+    VK_F4,          ID_ZOOM_X3,             VIRTKEY, NOINVERT
+    VK_F5,          ID_ZOOM_X4,             VIRTKEY, NOINVERT
+    "P",            ID_FILE_MULTI,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 287, 230
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IconMasterXP"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,230,207,50,16,WS_GROUP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,63,273,1
+    EDITTEXT        IDC_CREDITS,7,73,273,128,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDR_MAINFRAME DIALOGEX 0, 0, 330, 16
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "TODO: layout dialog bar ",IDC_STATIC,12,4,300,8
+END
+
+IDD_RESAMPLE DIALOGEX 0, 0, 179, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Resample"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&Width:",IDC_STATIC,7,7,25,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,36,7,34,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_WIDTHP,73,7,28,13,ES_AUTOHSCROLL
+    LTEXT           "&Height:",IDC_STATIC,7,25,25,13,SS_CENTERIMAGE
+    EDITTEXT        IDC_HEIGHT,36,24,34,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_HEIGHTP,73,24,28,13,ES_AUTOHSCROLL
+    CONTROL         "&Keep aspect ratio",IDC_RATIO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,43,107,10
+    LTEXT           "&Presets:",IDC_STATIC,7,57,83,10
+    LISTBOX         IDC_SIZES,7,69,107,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Antialias method:",IDC_STATIC,7,134,107,10
+    COMBOBOX        IDC_ANTIALIAS,7,145,107,96,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,122,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,122,24,50,14
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,122,42,50,14
+    CTEXT           "%",IDC_STATIC,102,23,12,14,SS_CENTERIMAGE
+    CTEXT           "%",IDC_STATIC,102,7,12,14,SS_CENTERIMAGE
+END
+
+IDD_ROTATE DIALOGEX 0, 0, 166, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rotate"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&Rotation angle (degrees):",IDC_STATIC,7,7,91,9
+    EDITTEXT        IDC_ANGLE,7,20,33,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "&Do not resize image",IDC_KEEPSIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,43,107,11
+    LTEXT           "&Antialias method:",IDC_STATIC,7,61,107,10
+    COMBOBOX        IDC_ANTIALIAS,7,75,107,120,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,114,7,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,114,24,45,14
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,114,41,45,14
+END
+
+IDD_COLORIZE DIALOGEX 0, 0, 197, 140
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Colorize"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,140,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,140,24,50,14
+    LTEXT           "Hue:",IDC_STATIC,7,7,106,11
+    CONTROL         "",IDC_HUE,"msctls_trackbar32",WS_TABSTOP,7,22,121,23,0,HIDC_HUE
+    CONTROL         "",IDC_SAT,"msctls_trackbar32",WS_TABSTOP,7,65,121,23
+    LTEXT           "Blend:",IDC_STATIC,7,95,106,11
+    CONTROL         "",IDC_BLEND,"msctls_trackbar32",WS_TABSTOP,7,110,121,23
+    CONTROL         "",IDC_COLOR,"Static",SS_OWNERDRAW | SS_SUNKEN,140,79,50,35
+    PUSHBUTTON      "&Color...",IDC_SELECT,140,119,50,14
+    LTEXT           "Saturation:",IDC_STATIC,7,49,106,11
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,140,41,50,14
+END
+
+IDD_FORMATS DIALOGEX 0, 0, 323, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Available Encoder"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_ENCODERS,7,7,248,131,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,266,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,266,24,50,14
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,266,42,50,14
+END
+
+IDD_JPEG DIALOGEX 0, 0, 295, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "JPEG Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,238,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,238,24,50,14
+    LTEXT           "Best Compression",IDC_STATIC,184,26,40,27
+    LTEXT           "Best Quality",IDC_STATIC,7,26,25,27
+    CONTROL         "",IDC_COMPRESSION,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,35,26,138,17
+    LTEXT           "Compression level: 15%",IDC_COMPRESSIONSTATUS,7,7,127,10
+    CONTROL         "Progessive",IDC_PROGRESSIVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,54,54,11
+    CONTROL         "Optimize",IDC_OPTIMIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,54,52,11
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,238,42,50,14
+END
+
+IDD_PROGRESS DIALOGEX 0, 0, 204, 44
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "Please wait..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",0x0,7,21,190,16
+    LTEXT           "",IDC_STAT,7,7,190,12
+END
+
+IDD_CONSOLE DIALOGEX 0, 0, 343, 157
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IconMasterXP Command Prompt Redirection"
+FONT 9, "Courier New", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_IN,1,143,296,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OUT,0,0,342,142,ES_MULTILINE | ES_AUTOHSCROLL | ES_NOHIDESEL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "Execute",IDOK,299,143,42,13
+END
+
+IDD_PALETTE DIALOGEX 0, 0, 199, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Palette Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,142,7,50,14
+    LTEXT           "",IDC_COLOR,7,132,135,11,SS_CENTERIMAGE
+    PUSHBUTTON      "&Help...",IDCSHOWHELP,142,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,8,0,0
+ PRODUCTVERSION 4,8,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "Visit http://www.iconmasterxp.com for latest information, updates and possible patches"
+            VALUE "CompanyName", "2-Dots Software"
+            VALUE "FileDescription", "IconMasterXP - Image Conversion Application"
+            VALUE "FileVersion", "4.8.0.0"
+            VALUE "InternalName", "IconMasterXP.exe"
+            VALUE "LegalCopyright", "Copyright© 2-Dots All Rights Reserved"
+            VALUE "OriginalFilename", "IconMasterXP.exe"
+            VALUE "ProductName", "IconMasterXP"
+            VALUE "ProductVersion", "4.8.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+
+    IDR_MAINFRAME, DIALOG
+    BEGIN
+    END
+
+    IDD_RESAMPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        VERTGUIDE, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_ROTATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        VERTGUIDE, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_COLORIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_FORMATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_JPEG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 37
+    END
+
+    IDD_CONSOLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_PALETTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        VERTGUIDE, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+        HORZGUIDE, 124
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\r\n"
+    "#define LANG_SERBIAN_LATIN LANG_SERBIAN\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_BANNER              PNG                     "res\\png\\banner.png"
+IDB_PAPER               PNG                     "res\\png\\paper_ico.png"
+IDB_PAPER_ERROR         PNG                     "res\\png\\paper_error.png"
+IDB_PAPER_INVALID       PNG                     "res\\png\\paper_invalid.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_COLORSELECTION      CURSOR                  "res\\arrow.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "IconMasterXP\n\nIconMasterXP\n\n\nIconMasterXP.Document\nIconMasterXP.Document"
+    IDS_INFO                "Click Import button to add files"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "IconMasterXP"
+    AFX_IDS_IDLEMESSAGE     "Press F1 for help"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit IconMasterXP; does not save any changes made to imported images"
+    ID_HELP                 "Show documentation table of contents\nShow documentation (F1)"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo (Ctrl+Z)"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+    ID_VIEW_AUTOARRANGE     "Arrange icons on a grid."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_SMALLICON       "Display items by using small icons.\nSmall Icons"
+    ID_VIEW_LARGEICON       "Display items by using large icons.\nLarge Icons"
+    ID_VIEW_LIST            "Displays items in a list.\nList"
+    ID_VIEW_DETAILS         "Displays detailed information about each item in the window.\nDetails"
+    ID_VIEW_LINEUP          "Arranges icons in a grid."
+    ID_VIEW_BYNAME          "Sorts the icons alphabetically."
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_ROTATE          "Rotate selected images\nRotate images"
+    ID_EDIT_REMOVEITEM      "Remove selected items (only in item list, not real files)\nRemove (Del)"
+    ID_BIT_24BIT            "Change color-depth to 24 bits"
+    ID_THRESHOLD_INTERACTIVE 
+                            "Choose desired threshold percentage by examining results directly\nInteractive threshold"
+    ID_FILTERS_SHARPEN      "Apply sharpen effect to selected images"
+    ID_FILTERS_NEGATIVE     "Invert colors of selected images"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_RESIZE          "Resize/resample selected images\nResize/resample images (Ctrl+L)"
+    ID_ZOOM_1               "Zoom to original size\nOriginal size"
+    ID_ZOOM_X2              "Zoom to double original size\nDouble"
+    ID_ZOOM_X3              "Zoom to three times bigger than original size\nTriple"
+    ID_ZOOM_X4              "Zoom to four times bigger than original size\nFour times bigger"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MULTI           "Enable exporting all imported images into a single image; default option\nExport as a single multi-paged icon (Ctrl+P)"
+    ID_TRANSPARENTCOLOR_PICKFROMIMAGE 
+                            "Pick transparent color from currently visible image\nPick transparent color for currently visible image"
+    ID_TRANSPARENTCOLOR_WRITERGBVALUES 
+                            "Set red, green and blue values for transparent color of selected images"
+    ID_FILE_IMPORT          "Import images from disc\nImport new images (Ctrl+O)"
+    ID_FILE_EXPORT          "Export all images to a different format\nExport all images (Ctrl+S)"
+    ID_EDIT_MIRROR          "Flip selected images horizontally\nHorizontal flip"
+    ID_EDIT_FLIP            "Flip selected images vertically\nVertical flip"
+    ID_BIT_4BIT             "Change color-depth to 4 bits"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BIT_8BIT             "Change color-depth to 8 bits"
+    ID_BIT_2BIT             "Change color-depth to monochrome"
+    ID_BIT_32BIT            "Indicates if selected image has alpha channel\nAlpha"
+    ID_TRANSPARENTCOLOR_REMOVE "Remove transparency from selected images"
+    ID_GAMMA_INCREASE       "Increase gamma level for selected images\nIncrease gamma level (Shift+1)"
+    ID_GAMMA_DECREASE       "Decrease gamma level for selected images\nDecrease gamma level"
+    ID_LIGHT_INCREASE       "Increase light level for selected images"
+    ID_LIGHT_DECREASE       "Decrease light level for selected images"
+    ID_CONTRAST_INCREASE    "Increase contrast for selected images"
+    ID_CONTRAST_DECREASE    "Decrease contrast for selected images"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILTERS_THRESHOLD    "Set 50% threshold to selected images\nThreshold (50%)"
+    ID_FILTERS_COLORIZE     "Change HSL values of rendering filter; prompts for HSL values and blending"
+    ID_FILTERS_SOFTEN       "Apply soften effect to selected images"
+    ID_FILTERS_EDGE         "Aply edge effect to selected images"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_SELECTALL       "Select all images\nSelect all"
+    ID_BIT_TIPS             "Display help for color modes"
+    ID_FILE_JPEGSETTINGS    "Change level and options for JPEG compression"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_REVERT          "Undo all changes done to selected items"
+    ID_EDIT_REPLACECOLORS   "Replace desired color with another. You will be prompted for color to replace and color to replace with."
+    ID_EDIT_DUPLICATE       "Duplicate selected items"
+    ID_ZOOM_ENABLEANTI      "Enable anti-aliasing for displaying images"
+    ID_VIEW_CONSOLE         "Display WinXP console output for console converters"
+    ID_HELP_HOWTOBUYFULLVERSION 
+                            "Click here to buy unrestricted version\nBuy full version"
+    ID_TRANSPARENTCOLOR_HELP "Display help for manipulating colors"
+    ID_THRESHOLD_HELP       "Display help for using threshold"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_PALETTE         "Edit palette for selected image."
+    ID_BACKGROUND_PATTERN   "Set background mode to pattern fill"
+    ID_BACKGROUND_COLOR     "Set background mode to color fill"
+    ID_BACKGROUND_EDITCOLOR "Edit background color"
+    ID_FILE_DON             "Prevent exporting icons with invalid sizes"
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

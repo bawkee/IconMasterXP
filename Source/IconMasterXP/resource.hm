@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by IconMasterXP.rc
+//
+#define HIDC_HUE                        0x808403f3    // IDD_COLORIZE
