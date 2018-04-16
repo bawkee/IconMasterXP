@@ -5,10 +5,10 @@ included in the CxImage distribution, the latter shall prevail.
 If you modify CxImage you may insert additional notices immediately following
 this sentence.
 
-Bojan Sala:
-This is a copy of the original source, unchanged except the binary output directories,
-directory structure and some components removed (demo projects, mfc/atl/crt versions etc).
-All the changes made by me are already in the master branch so the source is unaltered.
+Bojan Sala (TheAlas):
+This is a copy of the original source, unchanged except: 
+- The binary output directories, directory structure and some optional components removed (demo projects, mfc/atl/crt versions etc).
+- ximacfg.h for configuration purposes
 
 --------------------------------------------------------------------------------
 
