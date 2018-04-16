@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "IconMasterXP.h"
 #include "Resample.h"
-#include ".\resample.h"
 
 
 // CResample dialog

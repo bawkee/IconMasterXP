@@ -7,7 +7,6 @@
 
 #include "Doc.h"
 #include "IconEditor.h"
-#include ".\iconeditor.h"
 #include "IconView.h"
 
 #include "Resample.h"

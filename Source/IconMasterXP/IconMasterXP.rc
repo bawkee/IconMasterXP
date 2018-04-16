@@ -26,7 +26,6 @@
 LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 #pragma code_page(1252)
 
-
 /////////////////////////////////////////////////////////////////////////////
 //
 // Icon
@@ -479,8 +478,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 4,8,0,0
- PRODUCTVERSION 4,8,0,0
+ FILEVERSION 4,9,0,0
+ PRODUCTVERSION 4,9,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -496,14 +495,14 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "Comments", "Visit http://www.iconmasterxp.com for latest information, updates and possible patches"
-            VALUE "CompanyName", "2-Dots Software"
+            VALUE "CompanyName", "Bojan Sala (http://2-dots.com)"
             VALUE "FileDescription", "IconMasterXP - Image Conversion Application"
-            VALUE "FileVersion", "4.8.0.0"
+            VALUE "FileVersion", "4.9.0.0"
             VALUE "InternalName", "IconMasterXP.exe"
-            VALUE "LegalCopyright", "Copyright© 2-Dots All Rights Reserved"
+            VALUE "LegalCopyright", "Copyright© Bojan Sala All Rights Reserved"
             VALUE "OriginalFilename", "IconMasterXP.exe"
             VALUE "ProductName", "IconMasterXP"
-            VALUE "ProductVersion", "4.8.0.0"
+            VALUE "ProductVersion", "4.9.0.0"
         END
     END
     BLOCK "VarFileInfo"

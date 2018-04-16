@@ -9,7 +9,6 @@
 #include "MWnd.h"
 #include "IconEditor.h"
 #include "IconView.h"
-#include ".\iconview.h"
 
 
 #ifdef _DEBUG

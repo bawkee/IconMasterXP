@@ -221,9 +221,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resource.hm" />
+    <None Include="res\arrow.cur" />
+    <None Include="res\gray_pattern.bmp" />
     <None Include="res\IconMasterXP.ico" />
     <None Include="res\IconMasterXP.rc2" />
     <None Include="ReadMe.txt" />
+    <None Include="res\ico\delete.ico" />
+    <None Include="res\ico\export.ico" />
+    <None Include="res\ico\help.ico" />
+    <None Include="res\ico\import.ico" />
+    <None Include="res\ico\multipage.ico" />
+    <None Include="res\ico\resample.ico" />
+    <None Include="res\ico\transparent.ico" />
+    <None Include="res\ico\undo.ico" />
+    <None Include="res\png\banner.png" />
+    <None Include="res\png\paper_error.png" />
+    <None Include="res\png\paper_ico.png" />
+    <None Include="res\png\paper_invalid.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="IconMasterXP.rc" />

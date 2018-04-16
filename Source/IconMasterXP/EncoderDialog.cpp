@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "IconMasterXP.h"
 #include "EncoderDialog.h"
-#include ".\encoderdialog.h"
 
 
 // CEncoderDialog dialog

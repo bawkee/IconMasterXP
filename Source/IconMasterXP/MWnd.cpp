@@ -18,7 +18,6 @@
 
 #include "Spawn.h"
 #include "MWnd.h"
-#include ".\mwnd.h"
 //#include "Doc.h"
 
 

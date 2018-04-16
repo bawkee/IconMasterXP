@@ -5,7 +5,6 @@
 #include "IconMasterXP.h"
 #include "MWnd.h"
 #include "ProgressDialog.h"
-#include ".\progressdialog.h"
 
 
 // CProgressDialog dialog

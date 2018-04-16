@@ -164,6 +164,40 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="ReadMe.txt" />
+    <None Include="res\ico\help.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\import.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\delete.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\export.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\multipage.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\resample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\transparent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico\undo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gray_pattern.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\png\banner.png" />
+    <None Include="res\png\paper_ico.png" />
+    <None Include="res\png\paper_error.png" />
+    <None Include="res\png\paper_invalid.png" />
+    <None Include="res\arrow.cur">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="IconMasterXP.rc">

@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "IconMasterXP.h"
 #include "Rotate.h"
-#include ".\rotate.h"
 
 
 // CRotate dialog

@@ -9,7 +9,6 @@
 
 #include "Doc.h"
 #include "IconEditor.h"
-#include ".\iconmasterxp.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

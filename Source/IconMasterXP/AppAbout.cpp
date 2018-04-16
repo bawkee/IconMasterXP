@@ -81,7 +81,7 @@ void CAppAbout::OnShowWindow(BOOL bShow, UINT nStatus)
 
 	CString c;
 
-	c="IconMasterXP Version 4.8\r\n";
+	c="IconMasterXP Version 4.9\r\n";
 
 	// I removed all the shareware-related code and resources from the solution (validation, trial counters, nag screens etc).
 	// But I'm gonna leave this piece of 2004 me. I knew that someone is going to attempt to crack it with SoftICE or something
@@ -103,7 +103,7 @@ void CAppAbout::OnShowWindow(BOOL bShow, UINT nStatus)
 	szRoflCopter[9]=							"   TEH OMG! OMG OMG111 T3H R0FLCOPTER111";
 
 
-	c+="Copyright ©2003-2011 2-Dots.com. All Rights Reserved.\r\n";
+	c+="Copyright ©2003-2018 Bojan Sala. All Rights Reserved.\r\n";
 	c+="Please visit http://iconmasterxp.com for updates and news.\r\n\r\n";
 	c+="Special thanks goes to:\r\n";
 	c+="Davide Pizzolato, Author of CxImage Library\r\n";
@@ -112,7 +112,7 @@ void CAppAbout::OnShowWindow(BOOL bShow, UINT nStatus)
 	c+="Alvaro Mendez, AMSEdit Class\r\n";
 	c+="Andreas Saurwein, Console Redirect\r\n";
 	c+="Michael Dunn, Wonderful MFC Articles\r\n";
-
+	c+="\r\n";
 	c+="IconMasterXP is using following software:\r\n";
 	c+="IJG JPEG library ©1994-1998 Thomas G. Lane.\r\n";
 	c+="LibPNG v1.2.7 ©1998-2007 Glenn Randers-Pehrson.\r\n";
