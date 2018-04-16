@@ -5,7 +5,7 @@ This used to be a *shareware* application but as of April 2018 it is free and op
 
 **The official IconMasterXP website** is still the same, [www.iconmasterxp.com](http://iconmasterxp.com).
 
-**If just you want to download the installation** then go to the [official download page](http://iconmasterxp.com/download.htm).
+**If just you want to download the installation** then go to the [official download page](http://iconmasterxp.com/download).
 
 ## The Souce Code
 The complete source code is available, along with the setup script, documentation source, dependant libraries and all the associated resources. 

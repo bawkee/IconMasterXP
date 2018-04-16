@@ -5,6 +5,7 @@
 [Setup]
 AppId={{977771A0-9843-4278-851E-73E530F903E3} 
 AppName=IconMasterXP
+VersionInfoVersion=4.9.0.0
 AppVerName=IconMasterXP 4.9
 AppPublisher=IconMasterXP.com
 SourceDir="..\"
