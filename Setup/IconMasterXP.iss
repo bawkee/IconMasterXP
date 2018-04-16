@@ -29,8 +29,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "Source\IconMasterXP\Release\IconMasterXP.exe"; DestDir: "{app}"; Flags: ignoreversion
+
 Source: "Runtime\mfc100.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "Runtime\msvcr100.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "Runtime\msvcp100.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 Source: "Source\IconMasterXP\psd2png.exe"; DestDir: "{app}"; Flags: ignoreversion
 
