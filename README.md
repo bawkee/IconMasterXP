@@ -5,7 +5,7 @@ This used to be a *shareware* application but as of April 2018 it is free and op
 
 **The official IconMasterXP website** is still the same, [www.iconmasterxp.com](http://iconmasterxp.com).
 
-**If just you want to download the installation** then go to the [official download page](http://iconmasterxp.com/download).
+**If just you want to download the installation** then go to the [official download page](http://iconmasterxp.com/download.htm).
 
 ## The Souce Code
 The complete source code is available, along with the setup script, documentation source, dependant libraries and all the associated resources. 
@@ -29,15 +29,15 @@ As this unfortunately happens relatively often, download hubs such as ZDNet, Bro
 * Michael Dunn, Wonderful MFC Articles.
 
 **IconMasterXP is using the following software:**
-* Quantizer, ©1996-1997 Jeff Prosise.
-* IJG JPEG library ©1994-1998 Thomas G. Lane.
-* LibPNG v1.2.7 ©1998-2007 Glenn Randers-Pehrson.
-* LibTIFF v3.5.7 ©1988-1997 Sam Leffler, ©1991-1997 Silicon Graphics Inc.
-* LibMNG v1.0.10 ©2000-2002 Gerard Juyn.
-* LibJ2K ©2001-2002 David Janssens.
-* LibJBG v1.6 ©2004 Markus Kuhn.
-* JasPer v1.900.1 ©2001-2007 Image Power, UBC, Michael David Adams.
-* zlib v1.2.3 ©1995-2005 Jean-loup Gailly and Mark Adler.
+* Quantizer, Â©1996-1997 Jeff Prosise.
+* IJG JPEG library Â©1994-1998 Thomas G. Lane.
+* LibPNG v1.2.7 Â©1998-2007 Glenn Randers-Pehrson.
+* LibTIFF v3.5.7 Â©1988-1997 Sam Leffler, Â©1991-1997 Silicon Graphics Inc.
+* LibMNG v1.0.10 Â©2000-2002 Gerard Juyn.
+* LibJ2K Â©2001-2002 David Janssens.
+* LibJBG v1.6 Â©2004 Markus Kuhn.
+* JasPer v1.900.1 Â©2001-2007 Image Power, UBC, Michael David Adams.
+* zlib v1.2.3 Â©1995-2005 Jean-loup Gailly and Mark Adler.
 
 Following is a table of licenses used by individual components.
 
@@ -56,7 +56,7 @@ Continued below is the description of features and capabilities of this applicat
 
 ## Description
 
-IconMasterXP is a versatile app. It fully supports alpha transparency mask (also known as PNG mask), it can convert pictures into multi-paged icons, it has an easy to use batch-processing interface and supports Windows® Vista/7/8 icon format.
+IconMasterXP is a versatile app. It fully supports alpha transparency mask (also known as PNG mask), it can convert pictures into multi-paged icons, it has an easy to use batch-processing interface and supports WindowsÂ® Vista/7/8 icon format.
 
 ![Screenshot](http://iconmasterxp.com/scr1.png)
 ![Screenshot](http://iconmasterxp.com/scr2.png)
