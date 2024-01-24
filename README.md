@@ -3,10 +3,6 @@ Is a Windows application for batch image conversion and processing, tailored for
 
 This used to be a *shareware* application but as of April 2018 it is free and open-source with a GPL license. It was originally developed back in 2004 and since then it was updated, enhanced and maintained. I have removed all the shareware-reated code and resources (nag screens, time limits, card processing, agreements and purchase instructions) and updated the official EULA.
 
-**The official IconMasterXP website** is still the same, [www.iconmasterxp.com](http://iconmasterxp.com).
-
-**If just you want to download the installation** then go to the [official download page](http://iconmasterxp.com/download.htm).
-
 ## The Souce Code
 The complete source code is available, along with the setup script, documentation source, dependant libraries and all the associated resources. 
 
@@ -57,10 +53,6 @@ Continued below is the description of features and capabilities of this applicat
 ## Description
 
 IconMasterXP is a versatile app. It fully supports alpha transparency mask (also known as PNG mask), it can convert pictures into multi-paged icons, it has an easy to use batch-processing interface and supports Windows® Vista/7/8 icon format.
-
-![Screenshot](http://iconmasterxp.com/scr1.png)
-![Screenshot](http://iconmasterxp.com/scr2.png)
-
 
 There is a whole set of special effects such as gamma, light, contrast, soften/sharpen, color balance etc. It can do geometric operations (rotate/resize) supporting five supersampling algorithms which you can use without breaking your alpha (or PNG transparency) mask. Besides 32-bit pictures, other types are supported (24, 8, 4 and 1 bpp) with editable palette and color dithering - it can downgrade or upgrade image bit-depth. It is designed for anyone who works with .ICO files from software developers to digital graphic designers.
 
